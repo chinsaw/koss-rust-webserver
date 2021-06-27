@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My webpage!</title>
+    <style type = "text/css">
+
+    body {
+    text-align: center;
+    background-color: #f0e8c5;
+    }
+
+    div {
+    margin-top: 15px;
+    }
+
+    .image-section {
+    display: flex;
+    justify-content: center;
+    }
+
+    .section-style {
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+}
+
+    </style>
+
+     </head>
+  <body>
+    <h1>Hello, World!!!</h1>
+    <h4 id='date'></h4>
+
+    <div class="image-section">
+      <div class="section-style">
+        <img src="https://source.unsplash.com/random/400x200" alt="" />
+        <p>A random from unsplash.com.</p>
+        </body> 
+  <script type="text/javascript">
+        document.getElementById('date').innerHTML = new Date().toDateString();
+        </script>
+</html>
